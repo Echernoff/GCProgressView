@@ -8,7 +8,7 @@
 import SwiftUI
 
 /// A view that depicts the progress of a task over time.
-
+@available(iOS 15.0, *)
 public struct GCProgressView: View {
     
     // MARK: Properties
@@ -79,7 +79,7 @@ public struct GCProgressView: View {
 }
 
 // MARK: - Padding, Line Width, & Stroke Style
-
+@available(iOS 15.0, *)
 extension GCProgressView {
     
     // MARK: Bar
